@@ -10,7 +10,7 @@
     "git-heat.js"
   ],
   "scripts": {
-    "test": "node --test test/"
+    "test": "node --test test/git-heat.test.js"
   },
   "engines": {
     "node": ">=18"
