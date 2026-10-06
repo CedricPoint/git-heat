@@ -1,0 +1,34 @@
+{
+  "name": "git-heat",
+  "version": "1.0.0",
+  "description": "Find the code that will hurt you next: hotspots, hidden coupling, knowledge islands and bus factor from your git history. Zero dependencies.",
+  "bin": {
+    "git-heat": "git-heat.js"
+  },
+  "main": "git-heat.js",
+  "files": [
+    "git-heat.js"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "git",
+    "hotspots",
+    "code-quality",
+    "technical-debt",
+    "bus-factor",
+    "temporal-coupling",
+    "cli",
+    "code-analysis"
+  ],
+  "author": "CedricPoint",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CedricPoint/git-heat.git"
+  }
+}
